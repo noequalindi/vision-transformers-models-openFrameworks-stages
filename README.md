@@ -15,6 +15,36 @@ OF captura y dibuja; `ofxLocalAI` envía solicitudes sin bloquear el dibujo; cad
 motor ejecuta su modelo. ViT clasifica la imagen completa; Qwen responde preguntas
 sobre ella. Estos ejemplos no generan imágenes o video ni hacen tracking.
 
+## Los ejemplos en funcionamiento
+
+Capturas de las aplicaciones openFrameworks con **respuestas reales de los modelos
+locales**, usando la misma foto de un gato. Se puede probar sin cámara.
+
+### visionViT: imagen → categorías
+
+ViT clasifica la imagen completa y muestra las cinco categorías con mayor score.
+En esta captura, la primera es `tabby, tabby cat` (47,6 %). Las barras son hipótesis
+sobre la imagen; no señalan objetos ni posiciones.
+
+![Interfaz de visionViT: gato sobre la nieve y cinco categorías con sus scores](assets/screenshots/vision-vit-cat.png)
+
+### visionChat: imagen + pregunta → descripción
+
+Pregunta: **«Describe el animal, su pelaje y el entorno en una frase corta.»**
+Qwen3-VL recibe la foto y el texto, y genera la descripción que muestra OF.
+La respuesta se revela con una animación de escritura después de recibirla completa.
+
+![Interfaz de visionChat: foto del gato, pregunta y descripción generada por Qwen3-VL](assets/screenshots/vision-chat-cat.png)
+
+**Para repetir la prueba:** iniciar el servicio del ejemplo, abrir el sketch,
+pulsar **O** y elegir [la foto incluida](assets/screenshots/cat.jpg). En visionChat,
+escribir la pregunta en el cuadro de texto. Pulsar **ANALIZAR** para consultar el
+modelo. Los resultados pueden variar.
+
+Foto: **Von.grzanka**, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg),
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+[Créditos, licencia de las capturas y detalles de la prueba](assets/screenshots/CREDITS.md).
+
 ## 1. Instalar el entorno y descargar los modelos
 
 Descargar la carpeta completa y ubicarla donde se la vaya a utilizar. Abrir una
