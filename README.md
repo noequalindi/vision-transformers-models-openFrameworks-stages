@@ -138,12 +138,10 @@ no requieren API key ni pago por consulta local.
 
 - [Guía técnica y controles](vision/README.md).
 - [Guía breve para explicar y modificar el código OF](docs/GUIA_CODIGO_OF.md).
-- [Presentación PDF](Vision_transformers_multimodales_OF.pdf), conservada del material original.
 - [GIF de convolución](convolucion_3x3.gif), [video](convolucion_3x3.mp4) y `assets/`.
 - [Registro de validación](docs/VALIDACION.md).
 
-El PDF conserva las 25 diapositivas originales. El GIF se incluye por separado
-para incorporarlo a la presentación. Para enseñar la instalación actual,
+El GIF se incluye para incorporarlo a una presentación. Para enseñar la instalación actual,
 usar los comandos de este README; ya no se agrega `--vision` al instalador.
 
 ### Comprobaciones para desarrollo
