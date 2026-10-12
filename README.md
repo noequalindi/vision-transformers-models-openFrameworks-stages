@@ -1,5 +1,7 @@
 # vision-transformers-models-openFrameworks-stages
 
+**Español** | [English](README.en.md)
+
 Para la clase de código: [del modelo a una interacción en OF](docs/GUIA_CODIGO_OF.md).
 
 Dos ejemplos locales para aprender a construir una interacción a partir de la
