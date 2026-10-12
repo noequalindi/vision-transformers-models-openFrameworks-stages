@@ -19,3 +19,6 @@ dist/
 **/bin/visionViT
 **/bin/visionChat
 **/bin/data/runtime.json
+
+# Presentación docente: conservar solo en la copia local.
+/Vision_Transformers_updated.pptx
