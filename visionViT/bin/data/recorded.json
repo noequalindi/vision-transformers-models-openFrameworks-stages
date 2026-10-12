@@ -1,0 +1,25 @@
+{
+  "predictions": [
+    {
+      "label": "categoria A",
+      "score": 0.42
+    },
+    {
+      "label": "categoria B",
+      "score": 0.23
+    },
+    {
+      "label": "categoria C",
+      "score": 0.1
+    },
+    {
+      "label": "categoria D",
+      "score": 0.08
+    },
+    {
+      "label": "categoria E",
+      "score": 0.04
+    }
+  ],
+  "device": "grabado"
+}

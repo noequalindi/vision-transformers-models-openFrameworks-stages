@@ -1,0 +1,21 @@
+# Entornos, descargas y datos locales (se generan con install_env).
+.venv*/
+.tools/
+.local/
+models/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.env
+.DS_Store
+*.log
+build/
+dist/
+**/obj/
+**/bin/*.app/
+**/bin/*.exe
+**/bin/*.dll
+**/bin/visionViT
+**/bin/visionChat
+**/bin/data/runtime.json
